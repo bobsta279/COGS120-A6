@@ -1,0 +1,223 @@
+/* applies to anything of class "example-class-selector" */
+.example-class-selector {
+	margin-top: 2em;
+}
+
+/* applies to any <p> descendants of an element of class "example-class-selector" */
+.example-class-selector p {
+	/* Colors are in hexadecimal: http://www.colorpicker.com/ */	
+	color: #CC00AA;
+}
+
+.jumbotron {
+	position: relative;
+     background: none;
+}
+
+.jumbotron:after {
+     content:"";
+     background: url("../images/gym.jpg");
+     opacity: 0.4;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     right: 0;
+     position: absolute;
+     z-index: -1;	
+}
+
+.jumbotron p {
+     color: #6e6e6e;
+}
+
+.posts a{
+     font-size: 50px;
+     border-spacing: 100;
+}
+
+.posts h3 {
+     border-spacing: 100px;
+     font-size: 20px;
+}
+
+.title {
+     font-weight: bold;
+     text-align: center;
+     font-size: 90px;
+     text-transform: capitalize;
+}
+
+.toolbar
+{
+     width: 100%;
+     height: 100px;
+     bottom: 0;
+     left: 0;
+     padding: 5px 10px; /* some styling, please note overall height of the object will be 35px due to 5px padding on top/bottom. */
+     background: #ccc; /* some styling */
+     border-bottom: 1px solid #333; /* some styling */
+     position: fixed;
+}
+
+.toolbar-2
+{
+     width: 100%;
+     height: 100px;
+     left: 0;
+     padding: 5px 10px; /* some styling, please note overall height of the object will be 35px due to 5px padding on top/bottom. */
+     background: rgb(181, 226, 224); /* some styling */
+     border-bottom: 1px solid #333; /* some styling */
+}
+
+.toolbar-messages
+{
+     width: 24%;
+     height: 100%;
+     background-color: rgb(161, 240, 124);
+     font-size: 15px;
+     text-decoration: none;
+     color: black;
+}
+
+.toolbar-feed
+{
+     width: 24%;
+     height: 100%;
+     background-color: rgb(101, 101, 236);
+     font-size: 15px;
+     color: black;
+     text-decoration: none;
+}
+
+.toolbar-profile
+{
+     width: 24%;
+     height: 100%;
+     background-color: rgb(228, 97, 97);
+     font-size: 15px;
+     text-decoration: none;
+     color: black;
+}
+
+.toolbar-home
+{
+     width: 24%;
+     height: 100%;
+     background-color: rgb(141, 235, 238);
+     font-size: 15px;
+     text-decoration: none;
+     color: black;
+}
+
+.theHead
+{
+     color: black;
+     font-weight: bold;
+     text-align: center;
+     font-size: 30px;
+}
+
+.important
+{
+     color: black;
+     text-align: center;
+     font-size: 30px;
+}
+
+.details
+{
+     color: black;
+     font-size: 20px;
+     margin-left: 5px;
+}
+
+.leftImage
+{
+     margin-left: 10px;
+}
+
+.rightImage
+{
+     margin-right: 10px;
+}
+
+.rightText
+{
+     margin-right: 55px;
+}
+
+#outer
+{
+     font-size: 18px;
+     widows: 100%;
+     text-align: center;
+}
+
+#outer2
+{
+     font-size: 18px;
+     widows: 100%;
+     text-align: center;
+}
+
+.RIMAC
+{
+     display: inline-block;
+     margin-inline-end: 30px;
+}
+
+.skill
+{
+     display: inline-block;
+     margin-inline-end: 5px;
+}
+
+pre
+{
+     /*background-color: blue;*/
+}
+
+#button
+{
+     text-align: center;
+     font-size: 30px;
+}
+
+#addPostBtn
+{
+     text-align: center;
+     font-size: 30px;
+}
+
+#saveBtn
+{
+     text-align: center;
+     font-size: 35px;
+}
+
+#sendMsg
+{
+     text-align: center;
+     font-size: 35px;
+}
+
+#loginDetails
+{
+     font-size: 20px;
+}
+
+#nameInfo
+{
+     font-size: 30px;
+}
+
+.dropdown {
+     font-size: 20px;
+     position: relative;
+     display: inline-block;
+}
+
+.postDetails
+{
+     font-size: 18px;
+}

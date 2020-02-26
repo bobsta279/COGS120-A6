@@ -1,0 +1,79 @@
+<!doctype html>
+
+<html>
+<head>
+	<title>LIFTR</title>	
+	<meta charset="utf-8">
+	<meta name = "viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
+	<link href="/css/introHCI.css" rel="stylesheet">
+      
+</head>
+
+<body>
+	<div class="container">
+		<div class="jumbotron">
+			<h3 class="title">LIFTR</h3>
+		</div>
+		
+		<div id="nameInfo">
+			<form action="/html/tags/html_form_tag_action.cfm" method="get">
+				First name:
+				<input type="text" size="18px" name="first_name" value="" maxlength="50" />
+			
+			<br>
+			<br>
+
+			<form action="/html/tags/html_form_tag_action.cfm" method="get">
+				Last name:
+				<input type="text" size="18px" name="first_name" value="" maxlength="50" />
+		</div>
+		
+		<br>
+
+		<div>
+			<div class="gymChoice">
+				<h2 style="float: left;">Gym of Choice: &ensp; <h2>
+			</div>
+			<br>
+			<form>
+				<select name="dropdown" class="dropdown" class="gymChoice" style="height: 32px;">
+					<option value = "RIMAC" selected>RIMAC</option>
+					<option value = "Main Gym">Main Gym</option>
+				</select>
+      		</form>
+		</div>
+
+		<br>
+
+		<div class="skillLevel">
+			<h2 style="float: left;">Skill Level: &ensp;</h2>
+		</div>
+			
+		<form>
+			<br>
+			<select name="dropdown" class="dropdown" class="skillLevel" style="height: 32px;">
+				<option value = "Novice" selected>Novice</option>
+				<option value = "Intermediate">Intermediate</option>
+				<option value = "Expert">Expert</option>
+			</select>
+      	</form>
+		
+
+		<br>
+		<br>
+		<br>
+
+		<div id="saveBtn">
+			<a href="index" ><button name="saveButton">Save!</button></a>
+		</div>
+
+	</div>
+
+	<script src="https://code.jquery.com/jquery-1.11.0.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
